@@ -2,9 +2,8 @@ import 'package:flutter/material.dart';
 import 'screens/auth/login.dart';
 import 'screens/auth/sign_up.dart';
 
-void main() {
-  runApp(const MainApp());
-}
+
+void main() => runApp(const MainApp());
 
 class MainApp extends StatelessWidget {
   const MainApp({super.key});
